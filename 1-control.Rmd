@@ -1,0 +1,238 @@
+---
+title: "Управляющие конструкции и пакеты"
+author: "<i>Основы программирования на R</i><br><br>Антон Антонов"
+output: 
+  revealjs::revealjs_presentation:
+    theme: serif
+    highlight: tango
+    center: false
+    transition: fade
+    pandoc_args: [ 
+      "--slide-level", "1", 
+      "--include-in-header", "custom.css"
+    ]
+---
+
+```{r setup, echo=FALSE}
+options(width = 110)
+```
+
+# `if` и `else`
+
+. . .
+
+```{r, eval=FALSE}
+if (<condition>) {<do something>} else {<do another thing>}
+```
+
+>- Здесь \<condition\> -- это выражение, результатом которого будет логический вектор длины 1 (`TRUE` или `FALSE`, `NA` приведёт к ошибке)
+>- \<do something\> и \<do another thing\> -- произвольные команды
+
+. . .
+
+```{r}
+if (sqrt(2) > 1.5) {
+  print("Greater!")
+} else {
+  print("Less!")
+}
+```
+
+Переносить `else` на новую строку нельзя!
+
+# `ifelse`
+
+```{r}
+if (c(TRUE, FALSE)) print("Hmm...?")
+```
+
+. . .
+
+```{r}
+ifelse(runif(8) > 0.5, "Орёл", "Решка")
+```
+
+. . .
+
+```{r}
+x <- runif(8)
+ifelse(x > 2/3, "Камень", 
+       ifelse(x > 1/3, "Ножницы", "Бумага"))
+```
+
+# Множественный выбор: `switch`
+
+. . .
+
+```{r}
+switch("factorial", 
+       sum = 5 + 5,
+       product = 5 * 5,
+       factorial = factorial(5), 
+       0)
+```
+Используется достаточно редко
+
+# Циклы: `repeat`
+
+```{r}
+i <- 0
+repeat {
+  i <- i + runif(1)
+  print(i)
+  if (i > 5) break
+}
+```
+
+# Циклы: `while`
+
+```{r}
+i <- 2^14
+while (i > 1000) {
+  i <- i/2
+  print(i)
+}
+```
+
+
+# Циклы: `for`
+
+. . .
+
+```{r}
+for (i in 1:8) {
+  if (i %% 2 == 0) print(i)
+}
+```
+
+. . .
+
+```{r}
+for (i in letters) {
+  if (i == "b") next
+  if (i == "d") break
+  print(i)
+}
+```
+
+. . .
+
+Внутри цикла необходимо принудительно вызывать функцию `print`!
+
+```{r}
+for (i in 1:5) i
+```
+
+
+# `for` против векторизации
+
+. . .
+
+```{r, cache=TRUE}
+v <- 1:1e5
+system.time({
+  x <- 0
+  for (i in v) x[i] <- sqrt(v[i])
+})
+```
+
+. . .
+
+```{r}
+system.time({
+  y <- sqrt(v)
+})
+identical(x, y)
+```
+
+# Пакеты (packages)
+
+>- R спроектирован как расширяемый язык, основанный на _пакетах_
+>- Ядро языка -- пакет `base`
+>- Вместе с `base` поставляется несколько пакетов, часть из которых уже подключена в сессии, а остальные можно подключать без необходимости установки
+>- Неправильно называть пакет (`package`) библиотекой (`library`)!
+>- Ещё раз: модули расширений для R называются пакетами!
+>- Библиотека (в контексте экосистемы R) -- это место на диске, где хранятся доступные пакеты
+
+. . .
+
+```{r}
+.libPaths()
+```
+
+# Пакеты (packages)
+
+>- CRAN: https://cran.r-project.org/
+>- github, bitbucket
+
+. . .
+
+```{r, eval=FALSE}
+installed.packages()
+```
+
+```{r, echo = FALSE}
+i <- as.data.frame(installed.packages())
+i <- na.omit(i[, c("Package", "Priority")])
+i[i$Priority == "base", ]
+```
+
+# Подключение пакетов
+
+. . .
+
+```{r, eval=FALSE}
+grid.newpage()
+```
+
+. . .
+
+```{r, fig.height=3, fig.width=3, fig.align='center'}
+library(grid)
+grid.newpage()
+grid.lines()
+```
+
+>- `library(pkgname)`: можно писать название пакета без кавычек
+>- Вместо `library(pkgname)` можно использовать `require(pkgname)`
+
+# Установка пакетов из CRAN
+
+. . .
+
+```{r, eval=FALSE}
+install.packages("xts", dependencies = TRUE)
+```
+
+```{r, message=F, warning=F}
+library(xts)
+```
+. . .
+
+Обновление пакетов: `update.packages()`
+
+. . .
+
+Крайне полезная функция для случая, если какие-то пакеты не работают, как надо: `sessionInfo()`
+
+```{r, echo=FALSE}
+sessionInfo()
+```
+
+# Глоссарий
+
+. . .
+
+`?if`, `?ifelse`, `?switch`
+
+`?Logic`
+
+`?repeat`, `?while`, `?for`
+
+`?installed.packages`, `?library`, `?require`
+
+`?install.packages`, `?update.packages`
+
+`?sessionInfo`
+
+
