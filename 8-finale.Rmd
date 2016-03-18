@@ -1,0 +1,54 @@
+---
+title: "Заключение: что дальше?"
+author: "<i>Основы программирования на R</i><br><br>Антон Антонов"
+output: 
+  revealjs::revealjs_presentation:
+    theme: serif
+    highlight: tango
+    center: false
+    transition: fade
+    pandoc_args: [ 
+      "--slide-level", "1", 
+      "--include-in-header", "custom.css"
+    ]
+---
+
+# Ключевые объекты и понятия
+
+>- Переменные, окружения, операторы, использование справки
+>- Управляющие конструкции, пакеты
+>- Векторы, типы векторов, правила переписывания, векторизация
+>- Матрицы, списки, дата фреймы
+>- Семейство функций apply
+>- Типичные этапы предобработки данных
+>- Факторы, строки, регулярные выражения
+>- Функции, разбор аргументов, ellipsis, generic функции
+>- Концепция "tidy data"
+
+# Что дальше?
+
+>- Визуализация (base R, `ggplot2`, `lattice`, ...)
+>- Огромное количество методов и алгоритмов в разных областях (CRAN Task Views)
+>- knitr/rmarkdown
+>- Разработка и поддержка пакетов
+>- Advanced R
+>- Параллельные алгоритмы и оптимизация кода
+
+. . .
+
+Intro to ggplot2: [https://github.com/tonytonov/ggplot-lecture](https://github.com/tonytonov/ggplot-lecture)
+
+Rmarkdown: [https://github.com/tonytonov/tcts-rmarkdown](https://github.com/tonytonov/tcts-rmarkdown)
+
+dplyr, tidyr, magrittr: [https://github.com/tonytonov/spbr-1-dataproc](https://github.com/tonytonov/spbr-1-dataproc)
+
+R and С++, Parallel R, plotting, etc.: SPb R user group [http://vk.com/spbrug](http://vk.com/spbrug) 
+
+# Послесловие
+
+>- Материалы курса: [https://github.com/tonytonov/Rcourse](https://github.com/tonytonov/Rcourse)
+>- Увидимся! Всем спасибо!..
+>- ... with best Regards, Антон Антонов
+
+
+

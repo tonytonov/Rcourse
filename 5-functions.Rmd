@@ -1,0 +1,204 @@
+---
+title: "Функции"
+author: "<i>Основы программирования на R</i><br><br>Антон Антонов"
+output: 
+  revealjs::revealjs_presentation:
+    theme: serif
+    highlight: tango
+    center: false
+    transition: fade
+    pandoc_args: [ 
+      "--slide-level", "1", 
+      "--include-in-header", "custom.css"
+    ]
+---
+
+```{r setup, echo=FALSE}
+options(width = 110)
+```
+
+# Функция как объект
+
+Функция в R -- объект "первого класса", её можно:
+
+. . .
+
+Использовать как обычный объект
+```{r}
+str(c(mean, max))
+fun_list <- c(mean, max)
+sapply(fun_list, function(f) f(1:100))
+```
+
+# Функция как аргумент
+
+. . .
+
+Указывать в качестве аргумента
+
+```{r}
+apply_f <- function(f, x) f(x)
+sapply(fun_list, apply_f, x = 1:100)
+```
+
+. . .
+
+... при этом анонимная функция тоже подойдёт
+
+```{r}
+apply_f(function(x) sum(x^2), 1:10)
+```
+
+# Функция как return value
+
+Использовать как возвращаемое значение
+
+```{r}
+square <- function() function(x) x^2
+square()
+square()(5)
+```
+
+# Функции внутри функций
+
+. . .
+
+```{r}
+f <- function(x) {
+  g <- function(y) if (y > 0) 1 else if (y < 0) -1 else 0
+  sapply(x, g)
+}
+all.equal(f(-100:100), sign(-100:100))
+```
+
+. . .
+
+Идеальный случай: если функция `g` нужна только внутри функции `f` и не очень громоздка
+
+Функция внутри функции -- один из вариантов инкапсуляции в R
+
+# Исходный код функции
+
+. . .
+
+Простейший случай: напечатать имя функции без скобок (напр., `sd`)
+
+```{r}
+(f <- function(x) x^5)
+```
+
+. . .
+
+Если в выводе есть `.C`, `.Call`, `.Fortran`, `.External`, `.Internal`, `.Primitive`, то это обращение к скомпилированному коду: нужно смотреть исходный код R (напр., `var`)
+
+. . .
+
+Если в выводе есть `UseMethod` или `standardGeneric`, то это method dispatch для классов S3/S4 (полиморфизм; напр., `plot`)
+
+```{r}
+methods(plot)[1:20]
+```
+
+Полное описание всех случаев: [http://stackoverflow.com/questions/19226816/how-can-i-view-the-source-code-for-a-function](http://stackoverflow.com/questions/19226816/how-can-i-view-the-source-code-for-a-function)
+
+# Возвращаемое значение
+
+. . .
+
+Определяется либо ключевым словом `return`: 
+```{r}
+has_na <- function(v) {
+  for (k in v) if (is.na(k)) return(TRUE)
+  return(FALSE)
+}
+```
+
+. . .
+
+либо последним вычисленным значением:
+```{r}
+has_na <- function(v) any(is.na(v))
+```
+
+# Аргументы по умолчанию
+
+. . .
+
+Посмотрите, как объявлена функция `seq`:
+
+```{r, eval=FALSE}
+seq(from = 1, to = 1, by = ((to - from)/(length.out - 1)),
+    length.out = NULL, along.with = NULL, ...)
+```
+
+. . .
+
+>- Аргументы могут иметь значения по умолчанию
+>- Значения могут вычисляться на лету!
+
+. . .
+```{r}
+seq() # from = 1, to = 1
+seq(1, 5, length.out = 11) # by = (5 - 1)/(11 - 1)
+```
+
+# Правила разбора аргументов
+
+. . .
+
+Рассмотрим на примере:
+
+```{r, eval=FALSE}
+f <- function(arg1, arg2, remove_na = TRUE, ..., optional_arg) {}
+f(1, arg2 = 2, remove = F, optional_arg = 42, do_magic = TRUE)
+```
+
+. . .
+
+Разбор аргументов проходит в три этапа:
+
+1. Точное совпадение имени аргумента -- `arg2`, `optional_arg`
+2. Частичное совпадение имени аргумента (только до `...`) -- `remove_na`
+3. Разбор аргументов по позиции -- `arg1`
+
+Неразобранные аргументы попадают в `...` -- `do_magic`
+
+# Проброс аргументов
+
+. . .
+
+Один случай использования ellipsis -- "произвольное количество передаваемых объектов", функции `sum`, `c`, `cbind`, `paste`
+
+. . .
+
+Другой характерный случай -- "проброс аргументов":
+
+```{r}
+f <- function(x, pow = 2) x^pow
+integrate(f, 0, 1) # lower = 0, upper = 1, pow = 2
+integrate(f, 0, 1, pow = 5) # same, but pow = 5
+```
+
+# Бинарные операторы
+
+Оператор `x %in% y`: есть ли вхождения элементов `x` в `y`? 
+```{r}
+1:5 %in% c(1, 2, 5)
+```
+
+. . .
+
+```{r}
+"%nin%" <- function(x, y) !(x %in% y)
+1:5 %nin% c(1, 2, 5)
+```
+
+# Глоссарий
+
+. . .
+
+`?"function"`
+
+Source code for functions, `?methods`
+
+Argument matching, ellipsis (`?"..."`)
