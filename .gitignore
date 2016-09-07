@@ -1,0 +1,13 @@
+*
+
+!*/
+!*.gitignore
+!*.R
+!*.Rmd
+!*.html
+!*.pdf
+!*.md
+!*.css
+!*.csv
+!*.bib
+!*.png
