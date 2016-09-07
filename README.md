@@ -1,5 +1,5 @@
-# Course: R programming
-Materials for my R programming course https://stepic.org/course/497
+# MOOC: R programming, R markdown
+Materials for my R programming courses: https://stepic.org/course/497, https://stepic.org/course/724
   - .Rmd files contain presentation sources
   - htmls are built from Rmds using rmarkdown and revealjs
   - .R files contain practical examples
