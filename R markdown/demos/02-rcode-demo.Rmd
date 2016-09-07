@@ -1,0 +1,24 @@
+---
+title: "Analyzing trends in Canadian glacier mass"
+author: "Anton Antonov"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introduction
+
+The data used in this study is taken from <http://open.canada.ca/en/open-data>.
+
+```{r, echo=FALSE}
+glacier <- read.csv("glacier.csv", na.strings = "..", comment.char = "#")
+```
+
+The data set contains `r nrow(glacier)` measurements of `r nlevels(glacier$GEO)` Canadian glacier mass balance, collected from `r min(glacier$Ref_Date)` till `r max(glacier$Ref_Date)`. Namely, the file includes these glaciers:
+
+```{r, echo=FALSE}
+levels(glacier$GEO)
+```
+

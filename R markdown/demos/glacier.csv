@@ -1,0 +1,520 @@
+#http://open.canada.ca/data/en/dataset/b52664cf-bfd9-49ad-849a-cb88c92553b9
+Ref_Date,GEO,MEASURE,Vector,Coordinate,Value
+1977,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Annual mass balance,v54326054,1.1,-1460.0
+1978,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Annual mass balance,v54326054,1.1,-780.0
+1979,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Annual mass balance,v54326054,1.1,-2730.0
+1980,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Annual mass balance,v54326054,1.1,-940.0
+1981,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Annual mass balance,v54326054,1.1,..
+1982,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Annual mass balance,v54326054,1.1,-340.0
+1983,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Annual mass balance,v54326054,1.1,-210.0
+1984,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Annual mass balance,v54326054,1.1,-320.0
+1985,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Annual mass balance,v54326054,1.1,-825.0
+1986,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Annual mass balance,v54326054,1.1,-1330.0
+1987,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Annual mass balance,v54326054,1.1,-790.0
+1988,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Annual mass balance,v54326054,1.1,-150.0
+1989,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Annual mass balance,v54326054,1.1,-1670.0
+1990,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Annual mass balance,v54326054,1.1,-1790.0
+1991,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Annual mass balance,v54326054,1.1,-2239.0
+1992,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Annual mass balance,v54326054,1.1,-2798.0
+1993,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Annual mass balance,v54326054,1.1,-2342.0
+1994,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Annual mass balance,v54326054,1.1,-1885.0
+1995,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Annual mass balance,v54326054,1.1,-1465.0
+1996,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Annual mass balance,v54326054,1.1,210.0
+1997,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Annual mass balance,v54326054,1.1,-1075.0
+1998,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Annual mass balance,v54326054,1.1,-2850.0
+1999,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Annual mass balance,v54326054,1.1,1500.0
+2000,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Annual mass balance,v54326054,1.1,110.0
+2001,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Annual mass balance,v54326054,1.1,-600.0
+2002,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Annual mass balance,v54326054,1.1,-2545.0
+2003,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Annual mass balance,v54326054,1.1,-1895.0
+2004,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Annual mass balance,v54326054,1.1,-1995.0
+2005,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Annual mass balance,v54326054,1.1,-2765.0
+2006,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Annual mass balance,v54326054,1.1,-1905.0
+2007,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Annual mass balance,v54326054,1.1,-446.0
+1977,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Cumulative mass balance,v54326060,1.2,-1460.0
+1978,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Cumulative mass balance,v54326060,1.2,-2240.0
+1979,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Cumulative mass balance,v54326060,1.2,-4970.0
+1980,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Cumulative mass balance,v54326060,1.2,-5910.0
+1981,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Cumulative mass balance,v54326060,1.2,-5910.0
+1982,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Cumulative mass balance,v54326060,1.2,-6250.0
+1983,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Cumulative mass balance,v54326060,1.2,-6460.0
+1984,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Cumulative mass balance,v54326060,1.2,-6780.0
+1985,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Cumulative mass balance,v54326060,1.2,-7605.0
+1986,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Cumulative mass balance,v54326060,1.2,-8935.0
+1987,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Cumulative mass balance,v54326060,1.2,-9725.0
+1988,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Cumulative mass balance,v54326060,1.2,-9875.0
+1989,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Cumulative mass balance,v54326060,1.2,-11545.0
+1990,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Cumulative mass balance,v54326060,1.2,-13335.0
+1991,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Cumulative mass balance,v54326060,1.2,-15574.0
+1992,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Cumulative mass balance,v54326060,1.2,-18372.0
+1993,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Cumulative mass balance,v54326060,1.2,-20714.0
+1994,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Cumulative mass balance,v54326060,1.2,-22599.0
+1995,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Cumulative mass balance,v54326060,1.2,-24064.0
+1996,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Cumulative mass balance,v54326060,1.2,-23854.0
+1997,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Cumulative mass balance,v54326060,1.2,-24929.0
+1998,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Cumulative mass balance,v54326060,1.2,-27779.0
+1999,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Cumulative mass balance,v54326060,1.2,-26279.0
+2000,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Cumulative mass balance,v54326060,1.2,-26169.0
+2001,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Cumulative mass balance,v54326060,1.2,-26769.0
+2002,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Cumulative mass balance,v54326060,1.2,-29314.0
+2003,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Cumulative mass balance,v54326060,1.2,-31209.0
+2004,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Cumulative mass balance,v54326060,1.2,-33204.0
+2005,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Cumulative mass balance,v54326060,1.2,-35969.0
+2006,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Cumulative mass balance,v54326060,1.2,-37874.0
+2007,"Helm Glacier - southern Coast Mountains (Garibaldi Provincial Park), British Columbia",Cumulative mass balance,v54326060,1.2,-38320.0
+1966,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Annual mass balance,v54326055,2.1,150.0
+1967,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Annual mass balance,v54326055,2.1,10.0
+1968,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Annual mass balance,v54326055,2.1,350.0
+1969,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Annual mass balance,v54326055,2.1,-400.0
+1970,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Annual mass balance,v54326055,2.1,-1700.0
+1971,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Annual mass balance,v54326055,2.1,-411.0
+1972,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Annual mass balance,v54326055,2.1,-250.0
+1973,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Annual mass balance,v54326055,2.1,434.0
+1974,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Annual mass balance,v54326055,2.1,238.0
+1975,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Annual mass balance,v54326055,2.1,-570.0
+1976,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Annual mass balance,v54326055,2.1,638.0
+1977,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Annual mass balance,v54326055,2.1,-203.0
+1978,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Annual mass balance,v54326055,2.1,-1060.0
+1979,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Annual mass balance,v54326055,2.1,-810.0
+1980,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Annual mass balance,v54326055,2.1,-576.0
+1981,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Annual mass balance,v54326055,2.1,-1127.0
+1982,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Annual mass balance,v54326055,2.1,-565.0
+1983,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Annual mass balance,v54326055,2.1,-389.0
+1984,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Annual mass balance,v54326055,2.1,-580.0
+1985,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Annual mass balance,v54326055,2.1,-812.0
+1986,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Annual mass balance,v54326055,2.1,-472.0
+1987,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Annual mass balance,v54326055,2.1,-621.0
+1988,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Annual mass balance,v54326055,2.1,-992.0
+1989,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Annual mass balance,v54326055,2.1,-599.0
+1990,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Annual mass balance,v54326055,2.1,-734.0
+1991,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Annual mass balance,v54326055,2.1,-395.0
+1992,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Annual mass balance,v54326055,2.1,-266.0
+1993,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Annual mass balance,v54326055,2.1,-1198.0
+1994,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Annual mass balance,v54326055,2.1,-1268.0
+1995,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Annual mass balance,v54326055,2.1,-280.0
+1996,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Annual mass balance,v54326055,2.1,129.0
+1997,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Annual mass balance,v54326055,2.1,-818.0
+1998,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Annual mass balance,v54326055,2.1,-2230.0
+1999,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Annual mass balance,v54326055,2.1,-320.0
+2000,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Annual mass balance,v54326055,2.1,810.0
+2001,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Annual mass balance,v54326055,2.1,-920.0
+2002,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Annual mass balance,v54326055,2.1,-500.0
+2003,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Annual mass balance,v54326055,2.1,-1370.0
+2004,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Annual mass balance,v54326055,2.1,-550.0
+2005,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Annual mass balance,v54326055,2.1,-810.0
+2006,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Annual mass balance,v54326055,2.1,-1880.0
+2007,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Annual mass balance,v54326055,2.1,-1440.0
+1966,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Cumulative mass balance,v54326061,2.2,150.0
+1967,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Cumulative mass balance,v54326061,2.2,160.0
+1968,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Cumulative mass balance,v54326061,2.2,510.0
+1969,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Cumulative mass balance,v54326061,2.2,110.0
+1970,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Cumulative mass balance,v54326061,2.2,-1590.0
+1971,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Cumulative mass balance,v54326061,2.2,-2001.0
+1972,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Cumulative mass balance,v54326061,2.2,-2251.0
+1973,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Cumulative mass balance,v54326061,2.2,-1817.0
+1974,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Cumulative mass balance,v54326061,2.2,-1579.0
+1975,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Cumulative mass balance,v54326061,2.2,-2149.0
+1976,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Cumulative mass balance,v54326061,2.2,-1511.0
+1977,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Cumulative mass balance,v54326061,2.2,-1714.0
+1978,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Cumulative mass balance,v54326061,2.2,-2774.0
+1979,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Cumulative mass balance,v54326061,2.2,-3584.0
+1980,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Cumulative mass balance,v54326061,2.2,-4160.0
+1981,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Cumulative mass balance,v54326061,2.2,-5287.0
+1982,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Cumulative mass balance,v54326061,2.2,-5852.0
+1983,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Cumulative mass balance,v54326061,2.2,-6241.0
+1984,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Cumulative mass balance,v54326061,2.2,-6821.0
+1985,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Cumulative mass balance,v54326061,2.2,-7633.0
+1986,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Cumulative mass balance,v54326061,2.2,-8105.0
+1987,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Cumulative mass balance,v54326061,2.2,-8726.0
+1988,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Cumulative mass balance,v54326061,2.2,-9718.0
+1989,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Cumulative mass balance,v54326061,2.2,-10317.0
+1990,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Cumulative mass balance,v54326061,2.2,-11051.0
+1991,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Cumulative mass balance,v54326061,2.2,-11446.0
+1992,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Cumulative mass balance,v54326061,2.2,-11712.0
+1993,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Cumulative mass balance,v54326061,2.2,-12910.0
+1994,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Cumulative mass balance,v54326061,2.2,-14178.0
+1995,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Cumulative mass balance,v54326061,2.2,-14458.0
+1996,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Cumulative mass balance,v54326061,2.2,-14329.0
+1997,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Cumulative mass balance,v54326061,2.2,-15147.0
+1998,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Cumulative mass balance,v54326061,2.2,-17377.0
+1999,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Cumulative mass balance,v54326061,2.2,-17697.0
+2000,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Cumulative mass balance,v54326061,2.2,-16887.0
+2001,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Cumulative mass balance,v54326061,2.2,-17807.0
+2002,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Cumulative mass balance,v54326061,2.2,-18307.0
+2003,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Cumulative mass balance,v54326061,2.2,-19677.0
+2004,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Cumulative mass balance,v54326061,2.2,-20227.0
+2005,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Cumulative mass balance,v54326061,2.2,-21037.0
+2006,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Cumulative mass balance,v54326061,2.2,-22917.0
+2007,"Peyto Glacier - Rocky Mountain eastern slopes (Banff National Park), Alberta",Cumulative mass balance,v54326061,2.2,-24357.0
+1965,"Place Glacier - southern Coast Mountains, British Columbia",Annual mass balance,v54326056,3.1,-650.0
+1966,"Place Glacier - southern Coast Mountains, British Columbia",Annual mass balance,v54326056,3.1,110.0
+1967,"Place Glacier - southern Coast Mountains, British Columbia",Annual mass balance,v54326056,3.1,-1210.0
+1968,"Place Glacier - southern Coast Mountains, British Columbia",Annual mass balance,v54326056,3.1,-130.0
+1969,"Place Glacier - southern Coast Mountains, British Columbia",Annual mass balance,v54326056,3.1,-210.0
+1970,"Place Glacier - southern Coast Mountains, British Columbia",Annual mass balance,v54326056,3.1,-1510.0
+1971,"Place Glacier - southern Coast Mountains, British Columbia",Annual mass balance,v54326056,3.1,-340.0
+1972,"Place Glacier - southern Coast Mountains, British Columbia",Annual mass balance,v54326056,3.1,-340.0
+1973,"Place Glacier - southern Coast Mountains, British Columbia",Annual mass balance,v54326056,3.1,-300.0
+1974,"Place Glacier - southern Coast Mountains, British Columbia",Annual mass balance,v54326056,3.1,560.0
+1975,"Place Glacier - southern Coast Mountains, British Columbia",Annual mass balance,v54326056,3.1,-240.0
+1976,"Place Glacier - southern Coast Mountains, British Columbia",Annual mass balance,v54326056,3.1,84.0
+1977,"Place Glacier - southern Coast Mountains, British Columbia",Annual mass balance,v54326056,3.1,-1227.0
+1978,"Place Glacier - southern Coast Mountains, British Columbia",Annual mass balance,v54326056,3.1,-433.0
+1979,"Place Glacier - southern Coast Mountains, British Columbia",Annual mass balance,v54326056,3.1,-2210.0
+1980,"Place Glacier - southern Coast Mountains, British Columbia",Annual mass balance,v54326056,3.1,-920.0
+1981,"Place Glacier - southern Coast Mountains, British Columbia",Annual mass balance,v54326056,3.1,-1090.0
+1982,"Place Glacier - southern Coast Mountains, British Columbia",Annual mass balance,v54326056,3.1,-750.0
+1983,"Place Glacier - southern Coast Mountains, British Columbia",Annual mass balance,v54326056,3.1,-440.0
+1984,"Place Glacier - southern Coast Mountains, British Columbia",Annual mass balance,v54326056,3.1,-340.0
+1985,"Place Glacier - southern Coast Mountains, British Columbia",Annual mass balance,v54326056,3.1,-1880.0
+1986,"Place Glacier - southern Coast Mountains, British Columbia",Annual mass balance,v54326056,3.1,-1310.0
+1987,"Place Glacier - southern Coast Mountains, British Columbia",Annual mass balance,v54326056,3.1,-850.0
+1988,"Place Glacier - southern Coast Mountains, British Columbia",Annual mass balance,v54326056,3.1,-970.0
+1989,"Place Glacier - southern Coast Mountains, British Columbia",Annual mass balance,v54326056,3.1,-1040.0
+1990,"Place Glacier - southern Coast Mountains, British Columbia",Annual mass balance,v54326056,3.1,-938.0
+1991,"Place Glacier - southern Coast Mountains, British Columbia",Annual mass balance,v54326056,3.1,-990.0
+1992,"Place Glacier - southern Coast Mountains, British Columbia",Annual mass balance,v54326056,3.1,-793.0
+1993,"Place Glacier - southern Coast Mountains, British Columbia",Annual mass balance,v54326056,3.1,-2280.0
+1994,"Place Glacier - southern Coast Mountains, British Columbia",Annual mass balance,v54326056,3.1,-2010.0
+1995,"Place Glacier - southern Coast Mountains, British Columbia",Annual mass balance,v54326056,3.1,-2486.0
+1996,"Place Glacier - southern Coast Mountains, British Columbia",Annual mass balance,v54326056,3.1,-221.0
+1997,"Place Glacier - southern Coast Mountains, British Columbia",Annual mass balance,v54326056,3.1,-888.0
+1998,"Place Glacier - southern Coast Mountains, British Columbia",Annual mass balance,v54326056,3.1,-2450.0
+1999,"Place Glacier - southern Coast Mountains, British Columbia",Annual mass balance,v54326056,3.1,620.0
+2000,"Place Glacier - southern Coast Mountains, British Columbia",Annual mass balance,v54326056,3.1,130.0
+2001,"Place Glacier - southern Coast Mountains, British Columbia",Annual mass balance,v54326056,3.1,-760.0
+2002,"Place Glacier - southern Coast Mountains, British Columbia",Annual mass balance,v54326056,3.1,-120.0
+2003,"Place Glacier - southern Coast Mountains, British Columbia",Annual mass balance,v54326056,3.1,-995.0
+2004,"Place Glacier - southern Coast Mountains, British Columbia",Annual mass balance,v54326056,3.1,-2210.0
+2005,"Place Glacier - southern Coast Mountains, British Columbia",Annual mass balance,v54326056,3.1,-1295.0
+2006,"Place Glacier - southern Coast Mountains, British Columbia",Annual mass balance,v54326056,3.1,-1380.0
+2007,"Place Glacier - southern Coast Mountains, British Columbia",Annual mass balance,v54326056,3.1,-340.0
+1965,"Place Glacier - southern Coast Mountains, British Columbia",Cumulative mass balance,v54326062,3.2,-650.0
+1966,"Place Glacier - southern Coast Mountains, British Columbia",Cumulative mass balance,v54326062,3.2,-540.0
+1967,"Place Glacier - southern Coast Mountains, British Columbia",Cumulative mass balance,v54326062,3.2,-1750.0
+1968,"Place Glacier - southern Coast Mountains, British Columbia",Cumulative mass balance,v54326062,3.2,-1880.0
+1969,"Place Glacier - southern Coast Mountains, British Columbia",Cumulative mass balance,v54326062,3.2,-2090.0
+1970,"Place Glacier - southern Coast Mountains, British Columbia",Cumulative mass balance,v54326062,3.2,-3600.0
+1971,"Place Glacier - southern Coast Mountains, British Columbia",Cumulative mass balance,v54326062,3.2,-3940.0
+1972,"Place Glacier - southern Coast Mountains, British Columbia",Cumulative mass balance,v54326062,3.2,-4280.0
+1973,"Place Glacier - southern Coast Mountains, British Columbia",Cumulative mass balance,v54326062,3.2,-4580.0
+1974,"Place Glacier - southern Coast Mountains, British Columbia",Cumulative mass balance,v54326062,3.2,-4020.0
+1975,"Place Glacier - southern Coast Mountains, British Columbia",Cumulative mass balance,v54326062,3.2,-4260.0
+1976,"Place Glacier - southern Coast Mountains, British Columbia",Cumulative mass balance,v54326062,3.2,-4176.0
+1977,"Place Glacier - southern Coast Mountains, British Columbia",Cumulative mass balance,v54326062,3.2,-5403.0
+1978,"Place Glacier - southern Coast Mountains, British Columbia",Cumulative mass balance,v54326062,3.2,-5836.0
+1979,"Place Glacier - southern Coast Mountains, British Columbia",Cumulative mass balance,v54326062,3.2,-8046.0
+1980,"Place Glacier - southern Coast Mountains, British Columbia",Cumulative mass balance,v54326062,3.2,-8966.0
+1981,"Place Glacier - southern Coast Mountains, British Columbia",Cumulative mass balance,v54326062,3.2,-10056.0
+1982,"Place Glacier - southern Coast Mountains, British Columbia",Cumulative mass balance,v54326062,3.2,-10806.0
+1983,"Place Glacier - southern Coast Mountains, British Columbia",Cumulative mass balance,v54326062,3.2,-11246.0
+1984,"Place Glacier - southern Coast Mountains, British Columbia",Cumulative mass balance,v54326062,3.2,-11586.0
+1985,"Place Glacier - southern Coast Mountains, British Columbia",Cumulative mass balance,v54326062,3.2,-13466.0
+1986,"Place Glacier - southern Coast Mountains, British Columbia",Cumulative mass balance,v54326062,3.2,-14776.0
+1987,"Place Glacier - southern Coast Mountains, British Columbia",Cumulative mass balance,v54326062,3.2,-15626.0
+1988,"Place Glacier - southern Coast Mountains, British Columbia",Cumulative mass balance,v54326062,3.2,-16596.0
+1989,"Place Glacier - southern Coast Mountains, British Columbia",Cumulative mass balance,v54326062,3.2,-17636.0
+1990,"Place Glacier - southern Coast Mountains, British Columbia",Cumulative mass balance,v54326062,3.2,-18574.0
+1991,"Place Glacier - southern Coast Mountains, British Columbia",Cumulative mass balance,v54326062,3.2,-19564.0
+1992,"Place Glacier - southern Coast Mountains, British Columbia",Cumulative mass balance,v54326062,3.2,-20357.0
+1993,"Place Glacier - southern Coast Mountains, British Columbia",Cumulative mass balance,v54326062,3.2,-22637.0
+1994,"Place Glacier - southern Coast Mountains, British Columbia",Cumulative mass balance,v54326062,3.2,-24647.0
+1995,"Place Glacier - southern Coast Mountains, British Columbia",Cumulative mass balance,v54326062,3.2,-27133.0
+1996,"Place Glacier - southern Coast Mountains, British Columbia",Cumulative mass balance,v54326062,3.2,-27354.0
+1997,"Place Glacier - southern Coast Mountains, British Columbia",Cumulative mass balance,v54326062,3.2,-28242.0
+1998,"Place Glacier - southern Coast Mountains, British Columbia",Cumulative mass balance,v54326062,3.2,-30692.0
+1999,"Place Glacier - southern Coast Mountains, British Columbia",Cumulative mass balance,v54326062,3.2,-30072.0
+2000,"Place Glacier - southern Coast Mountains, British Columbia",Cumulative mass balance,v54326062,3.2,-29942.0
+2001,"Place Glacier - southern Coast Mountains, British Columbia",Cumulative mass balance,v54326062,3.2,-30702.0
+2002,"Place Glacier - southern Coast Mountains, British Columbia",Cumulative mass balance,v54326062,3.2,-30822.0
+2003,"Place Glacier - southern Coast Mountains, British Columbia",Cumulative mass balance,v54326062,3.2,-31817.0
+2004,"Place Glacier - southern Coast Mountains, British Columbia",Cumulative mass balance,v54326062,3.2,-34027.0
+2005,"Place Glacier - southern Coast Mountains, British Columbia",Cumulative mass balance,v54326062,3.2,-35322.0
+2006,"Place Glacier - southern Coast Mountains, British Columbia",Cumulative mass balance,v54326062,3.2,-36702.0
+2007,"Place Glacier - southern Coast Mountains, British Columbia",Cumulative mass balance,v54326062,3.2,-37042.0
+1961,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,-197.0
+1962,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,-359.0
+1963,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,44.0
+1964,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,125.0
+1965,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,64.0
+1966,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,-135.0
+1967,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,-27.0
+1968,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,-175.0
+1969,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,-175.0
+1970,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,39.0
+1971,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,-69.0
+1972,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,102.0
+1973,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,-95.0
+1974,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,-77.0
+1975,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,-69.0
+1976,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,171.0
+1977,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,-99.0
+1978,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,27.0
+1979,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,39.0
+1980,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,-57.0
+1981,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,-146.0
+1982,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,-95.0
+1983,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,105.0
+1984,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,-31.0
+1985,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,-108.0
+1986,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,185.0
+1987,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,44.0
+1988,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,-216.0
+1989,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,-69.0
+1990,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,-166.0
+1991,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,-230.0
+1992,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,96.0
+1993,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,-62.0
+1994,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,-32.0
+1995,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,-147.0
+1996,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,-80.0
+1997,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,-129.0
+1998,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,-276.0
+1999,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,-217.0
+2000,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,-320.0
+2001,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,-559.0
+2002,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,-21.0
+2003,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,-139.0
+2004,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,46.0
+2005,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,-262.0
+2006,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,-242.0
+2007,"Devon Ice Cap NW - Devon Island, Nunavut",Annual mass balance,v54326057,4.1,-291.0
+1961,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-197.0
+1962,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-556.0
+1963,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-512.0
+1964,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-387.0
+1965,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-323.0
+1966,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-458.0
+1967,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-485.0
+1968,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-660.0
+1969,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-835.0
+1970,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-796.0
+1971,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-865.0
+1972,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-763.0
+1973,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-858.0
+1974,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-935.0
+1975,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-1004.0
+1976,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-833.0
+1977,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-932.0
+1978,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-905.0
+1979,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-866.0
+1980,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-923.0
+1981,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-1069.0
+1982,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-1164.0
+1983,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-1059.0
+1984,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-1090.0
+1985,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-1198.0
+1986,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-1013.0
+1987,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-969.0
+1988,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-1185.0
+1989,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-1254.0
+1990,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-1420.0
+1991,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-1650.0
+1992,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-1554.0
+1993,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-1616.0
+1994,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-1648.0
+1995,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-1795.0
+1996,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-1875.0
+1997,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-2004.0
+1998,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-2280.0
+1999,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-2497.0
+2000,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-2817.0
+2001,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-3376.0
+2002,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-3397.0
+2003,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-3536.0
+2004,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-3490.0
+2005,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-3752.0
+2006,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-3994.0
+2007,"Devon Ice Cap NW - Devon Island, Nunavut",Cumulative mass balance,v54326063,4.2,-4285.0
+1960,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,-750.0
+1961,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,-110.0
+1962,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,-970.0
+1963,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,-200.0
+1964,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,360.0
+1965,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,60.0
+1966,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,-70.0
+1967,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,-50.0
+1968,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,50.0
+1969,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,110.0
+1970,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,-10.0
+1971,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,-420.0
+1972,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,30.0
+1973,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,30.0
+1974,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,-30.0
+1975,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,80.0
+1976,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,80.0
+1977,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,-240.0
+1978,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,-90.0
+1979,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,-5.0
+1980,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,-5.0
+1981,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,-170.0
+1982,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,160.0
+1983,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,-250.0
+1984,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,230.0
+1985,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,-30.0
+1986,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,250.0
+1987,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,-180.0
+1988,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,-290.0
+1989,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,290.0
+1990,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,-210.0
+1991,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,-220.0
+1992,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,10.0
+1993,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,-590.0
+1994,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,-200.0
+1995,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,60.0
+1996,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,190.0
+1997,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,-60.0
+1998,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,-100.0
+1999,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,-350.0
+2000,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,-490.0
+2001,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,10.0
+2002,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,80.0
+2003,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,-530.0
+2004,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,280.0
+2005,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,-380.0
+2006,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,-8.0
+2007,"Meighen Ice Cap - Meighen Island, Nunavut",Annual mass balance,v54326058,5.1,-518.0
+1960,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-750.0
+1961,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-860.0
+1962,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-1830.0
+1963,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-2030.0
+1964,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-1670.0
+1965,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-1610.0
+1966,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-1680.0
+1967,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-1730.0
+1968,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-1680.0
+1969,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-1570.0
+1970,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-1580.0
+1971,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-2000.0
+1972,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-1970.0
+1973,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-1940.0
+1974,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-1970.0
+1975,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-1890.0
+1976,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-1810.0
+1977,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-2050.0
+1978,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-2140.0
+1979,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-2145.0
+1980,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-2150.0
+1981,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-2320.0
+1982,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-2160.0
+1983,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-2410.0
+1984,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-2180.0
+1985,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-2210.0
+1986,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-1960.0
+1987,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-2140.0
+1988,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-2430.0
+1989,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-2140.0
+1990,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-2350.0
+1991,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-2570.0
+1992,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-2560.0
+1993,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-3150.0
+1994,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-3350.0
+1995,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-3290.0
+1996,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-3100.0
+1997,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-3160.0
+1998,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-3260.0
+1999,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-3610.0
+2000,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-4100.0
+2001,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-4090.0
+2002,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-4010.0
+2003,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-4540.0
+2004,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-4260.0
+2005,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-4640.0
+2006,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-4648.0
+2007,"Meighen Ice Cap - Meighen Island, Nunavut",Cumulative mass balance,v54326064,5.2,-5166.0
+1960,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,-408.0
+1961,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,17.0
+1962,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,-781.0
+1963,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,-155.0
+1964,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,350.0
+1965,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,-12.0
+1966,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,-25.0
+1967,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,118.0
+1968,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,-408.0
+1969,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,72.0
+1970,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,-4.0
+1971,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,-183.0
+1972,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,118.0
+1973,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,191.0
+1974,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,-44.0
+1975,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,251.0
+1976,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,114.0
+1977,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,-370.0
+1978,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,-131.0
+1979,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,-87.0
+1980,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,-122.0
+1981,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,-178.0
+1982,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,-175.0
+1983,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,-76.0
+1984,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,-44.0
+1985,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,1.0
+1986,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,-243.0
+1987,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,-594.0
+1988,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,140.0
+1989,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,40.0
+1990,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,-431.0
+1991,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,-160.0
+1992,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,-274.0
+1993,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,-423.0
+1994,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,-276.0
+1995,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,-347.0
+1996,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,50.0
+1997,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,-38.0
+1998,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,-201.0
+1999,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,-470.0
+2000,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,-405.0
+2001,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,-151.0
+2002,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,32.0
+2003,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,-106.0
+2004,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,37.0
+2005,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,-612.0
+2006,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,-93.0
+2007,"White Glacier - Axel Heiberg Island, Nunavut",Annual mass balance,v54326059,6.1,-818.0
+1960,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-408.0
+1961,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-391.0
+1962,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-1172.0
+1963,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-1327.0
+1964,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-977.0
+1965,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-989.0
+1966,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-1014.0
+1967,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-896.0
+1968,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-1304.0
+1969,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-1232.0
+1970,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-1236.0
+1971,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-1419.0
+1972,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-1301.0
+1973,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-1110.0
+1974,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-1154.0
+1975,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-903.0
+1976,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-789.0
+1977,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-1159.0
+1978,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-1290.0
+1979,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-1377.0
+1980,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-1499.0
+1981,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-1677.0
+1982,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-1852.0
+1983,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-1928.0
+1984,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-1972.0
+1985,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-1971.0
+1986,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-2214.0
+1987,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-2808.0
+1988,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-2668.0
+1989,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-2628.0
+1990,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-3059.0
+1991,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-3219.0
+1992,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-3493.0
+1993,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-3916.0
+1994,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-4192.0
+1995,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-4539.0
+1996,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-4489.0
+1997,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-4527.0
+1998,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-4728.0
+1999,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-5198.0
+2000,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-5603.0
+2001,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-5754.0
+2002,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-5722.0
+2003,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-5828.0
+2004,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-5791.0
+2005,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-6403.0
+2006,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-6496.0
+2007,"White Glacier - Axel Heiberg Island, Nunavut",Cumulative mass balance,v54326065,6.2,-7314.0

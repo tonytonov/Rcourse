@@ -1,0 +1,66 @@
+---
+title: "R Markdown"
+author: "Антон Антонов"
+---
+
+```{r setup, echo=FALSE}
+options(width = 110)
+```
+
+## Inline code
+
+>- Простейший случай: вставка результата в виде текста прямо в строку
+>- Синтаксис: backtick ("`") - "r" - пробел - код на R - backtick
+>- Пример: "Теорема доказана в предположении, что число пи равно `` `r knitr::inline_expr('ceiling(pi)')` ``."
+>- Результат: "Теорема доказана в предположении, что число пи равно `r ceiling(pi)`."
+
+## Code chunks
+
+>- Основной способ вставки кода
+>- Каждый кусок (chunk, чанк) настраиваем с помощью опций
+>- Чанк может что-либо печатать, рисовать или вообще не иметь вывода
+
+## Синтаксис чанков
+
+```{r, echo=FALSE, comment=""}
+cat(c("```{r}",
+      "head(iris)",
+      "```"), 
+    sep='\n')
+```
+
+. . .
+
+```{r}
+head(iris)
+```
+
+## Опция echo=FALSE
+
+>- В фигурных скобках через запятую можно указывать _опции_ чанка
+>- По умолчанию печатается и код, и его результат
+>- Опция `echo=FALSE` подавит вывод кода:
+
+. . .
+
+```{r, echo=FALSE, comment=""}
+cat(c("```{r, echo=FALSE}",
+      "(1:10)^3",
+      "```"), 
+    sep='\n')
+```
+
+. . .
+
+```{r, echo=FALSE}
+(1:10)^3
+```
+
+<!-- 
+demo: 
+add chunk with data loading
+reason that echo = FALSE
+add inline code with data dimensions and dates
+note that we would fail if min of dates written by hand
+add chunk with levels
+-->

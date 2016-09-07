@@ -1,0 +1,66 @@
+---
+title: "R Markdown"
+author: "Антон Антонов"
+---
+
+```{r setup, echo=FALSE}
+options(width = 110)
+```
+
+## HTML tags
+
+>- Отсюда и далее говорим только об HTML
+>- При сборке .Rmd разметка markdown заменяется HTML тегами
+>- Но теги можно использовать и напрямую
+>- `<u>Подчёркнутый текст</u>` --> <u>Подчёркнутый текст</u>
+
+## CSS
+
+>- CSS -- способ изменять стили отображения элементов, не меняя текст markdown-файла
+>- Уровень абстракции: разметка отдельно, стили отдельно
+
+. . .
+
+```
+output:
+  html_document:
+    css: styles.css
+```
+
+## HTML-презентации
+
+>- ioslides, slidy, revealjs (+ beamer)
+>- Слайды отделяются друг от друга заголовками первого и второго уровней
+>- Или принудительно при помощи строки из дефисов: `----`
+>- У каждого формата свои удобства для показа, визуального оформления, конфигурации и т.п.
+
+## ggvis
+
+>- HTML хорош тем, что он может быть интерактивным за счёт javascript
+>- ggvis -- это "web-friendly" наследник ggplot2
+>- Синтаксис очень похож:
+
+```
+library(ggplot2)
+ggplot(mtcars, aes(x = wt, y = mpg, color = factor(cyl))) +
+  geom_point(size = 5)
+```
+
+. . .
+
+```
+library(ggvis)
+ggvis(mtcars, x = ~wt, y = ~mpg, fill = ~factor(cyl)) %>%
+  layer_points(size := 100)
+```
+
+
+## shiny
+## htmlwidgets
+## flexdashboard
+
+<!-- 
+demo: 
+add html tag
+replace ggplot with ggvis
+-->

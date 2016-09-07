@@ -1,0 +1,103 @@
+---
+title: "R Markdown"
+author: "Антон Антонов"
+---
+
+```{r setup, echo=FALSE}
+options(width = 110)
+```
+
+## knitr
+
+>- За обработку кода на R отвечает пакет `knitr`
+>- Он может быть использован отдельно от R Markdown 
+>- Изначальный фокус `knitr` -- pdf (LaTeX + R)
+
+## Chunk options
+
+>- Существуют глобальные настройки `knitr`
+>- Каждый чанк может иметь локальные настройки, переопределяющие глобальные
+>- Локальные настройки указываются через запятую
+>- Все возможные опции приведены на <http://yihui.name/knitr/options/>
+
+## Основные опции
+
+>- `echo` (default: `TRUE`) -- отображать ли исходный код чанка?
+>- `eval` (default: `TRUE`) -- исполнять ли код чанка?
+>- `include` (default: `TRUE`) -- отображать ли результат исполнения чанка?
+>- `error` (default: `FALSE`) -- добавлять ли в документ текст ошибок? 
+>- `message` (default: `TRUE`) -- добавлять ли в документ текст сообщений? 
+>- `warning` (default: `TRUE`) -- добавлять ли в документ текст предупреждений? 
+
+## Основные опции 
+
+>- `comment` (default: `'##'`) -- какой префикс добавлять перед каждой строкой вывода результатов?
+>- `results` (default: `'markup'`) -- каким образом выводить результаты исполнения?
+>- `highlight` (default: `TRUE`) -- подсвечивать ли синтаксис кода?
+>- `tidy` (default: `FALSE`) -- отформатировать ли код (отступы, пробелы)?
+
+## Графики
+
+>- `fig.height`, `fig.width` -- размеры изображения (в дюймах)
+>- `fig.align` (default: `'center'`) -- расположение графика на странице
+>- `fig.cap` (default: `NULL`) -- строка с подписью к графику
+
+. . .
+
+```{r, fig.width=8, fig.height=3, message=FALSE, echo=FALSE}
+require(ggplot2)
+ggplot(diamonds, aes(price, carat, color = cut)) + geom_point()
+```
+
+## Кеширование чанков
+
+>- Некоторые чанки могут содержать длинные вычисления
+>- Для таких чанков нужно выставить `cache=TRUE`
+>- Кеш срабатывает в том случае, если содержимое кода внутри чанка не изменилось
+>- Важно: если чанки взаимозависимы, нужно помнить о кеше!
+>- В этих случаях поможет опция `dependson`
+>- Важно: некоторые алгоритмы используют генераторы случайных чисел!
+
+## Метки чанков
+
+>- В фигурных скобках между "r" и опциями чанка может находиться метка чанка
+>- Чанки могут обращаться друг к другу по меткам
+
+. . .
+
+```{r, echo=FALSE, comment=""}
+cat(c("```{r chunk1, echo=TRUE, results='hide'}",
+      "cos(2*pi)",
+      "```"), 
+    sep='\n')
+```
+
+```{r, echo=FALSE, comment=""}
+cat(c("```{r chunk2, echo=FALSE, ref.label='chunk1'}",
+      "```"), 
+    sep='\n')
+```
+
+. . .
+
+```{r chunk1, echo=TRUE, results='hide'}
+cos(2*pi)
+```
+
+```{r chunk2, echo=FALSE, ref.label="chunk1"}
+```
+
+## Глобальные опции
+
+>- Задаются, как правило, в начале документа
+>- `knitr::opts_chunk$set(echo=FALSE, fig.width=5, fig.height=5)`
+>- Этот вызов удобно поместить в отдельный чанк с опцией `include=FALSE`
+
+<!-- 
+demo: 
+explain setup
+show outline
+set echo, messages and warnings to false
+add analysis.R and explain code
+add plot
+-->

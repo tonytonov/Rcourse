@@ -1,0 +1,61 @@
+---
+title: "R Markdown"
+author: "Антон Антонов"
+---
+
+```{r setup, echo=FALSE}
+options(width = 110)
+```
+
+## Как устроен R Markdown
+
+>- Исходный файл: .Rmd
+>- `knitr`: .Rmd --> .md
+>- `pandoc`: .md --> .html, .docx, .tex
+>- `latex`: .tex --> .pdf
+
+## YAML header
+
+>- В заголовке .Rmd-файла можно указывать различные опции
+>- Эти опции имеют отношение к генерации конечных файлов
+>- Опции задаются в особом формате (YAML) в виде списка ключей и значений
+
+## Конфигурации форматов
+
+>- Секция `output:` отвечает за формат конечного документа
+>- Каждый формат имеет собственные настройки
+
+. . .
+
+```
+output:
+  html_document:
+    toc_float: TRUE 
+    
+```
+
+## Параметры документа
+
+>- Содержимое документа может зависеть от внешних параметров
+>- Это могут быть различные сценарии, настройки алгоритмов, имена файлов и т.д.
+
+. . .
+
+```
+params:
+  n: 100
+  d: !r Sys.Date() 
+```
+
+>- Использование возможно через список `params`: `` `r knitr::inline_expr('params$n')` ``.
+ 
+<!-- 
+demo: 
+add html and pdf render options (toc)
+add bibliography
+change url color
+add keep tex and verify
+add name as parameter
+re-run and notice changes
+delete cache folder
+-->

@@ -1,0 +1,58 @@
+<style type="text/css">
+.reveal .slide h1 { font-size: 150%; text-decoration: underline; }
+.reveal .slide h2 { font-size: 150%; text-decoration: underline; }
+
+body {
+  background: #8080ff;
+  background-color: #8080ff;
+}
+
+.reveal h1,
+.reveal h2 {
+  margin: 0 0 40px 0;
+  color: #000000;
+  font-family: Ubuntu, sans-serif;
+  line-height: 0.9em; 
+}
+
+.reveal .slides section .fragment {
+  opacity: 0.1;
+  visibility: visible;
+}
+
+.reveal p { 
+  text-align: left; 
+  font-family: Ubuntu, sans-serif; 
+}
+
+.reveal center { 
+  font-family: Ubuntu, sans-serif; 
+}
+
+.reveal ul { 
+  list-style-type: square;  
+  text-align: left; 
+  font-family: Ubuntu, sans-serif; 
+}
+
+.reveal ol { 
+  padding-left: 1.5em;
+  text-align: left; 
+  font-family: Ubuntu, sans-serif; 
+}
+
+.reveal code {
+  background: #ffffff;
+  color: #000000;
+  font-family: Ubuntu Mono, monospace;
+}
+
+.reveal pre code {
+  display: block; 
+  padding: 0.5em;
+  background: #ffffff;
+  color: #000000;
+  font-family: Ubuntu Mono, monospace;
+}
+
+</style>

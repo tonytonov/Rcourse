@@ -1,0 +1,81 @@
+---
+title: "Analyzing trends in Canadian glacier mass"
+author: "Anton Antonov"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library(dplyr)
+library(tidyr)
+library(xtable)
+library(ggplot2)
+options(scipen = 0, digits = 3)
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+```
+
+## Introduction
+
+The data used in this study is taken from <http://open.canada.ca/en/open-data>[^1].
+
+[^1]: Here is the [direct link](http://open.canada.ca/data/en/dataset/b52664cf-bfd9-49ad-849a-cb88c92553b9) to data download.
+
+```{r}
+glacier <- read.csv("glacier.csv", na.strings = "..", comment.char = "#")
+```
+
+The data set contains `r nrow(glacier)` measurements of `r nlevels(glacier$GEO)` Canadian glacier mass balance, collected from `r min(glacier$Ref_Date)` till `r max(glacier$Ref_Date)`. Namely, the file includes these glaciers:
+
+```{r, comment=""}
+levels(glacier$GEO)
+```
+
+## Hypothesis
+
+We are interested in finding out whether there is a statistically significant change in mass balance over the observed time period. For these purposes we use **R** (version `r getRversion()`) and an appropriate statistical test called _t-test_: $$t = \frac{\overline{x} - \mu_0}{s/\sqrt{n}}.$$
+
+The workflow is as follows:
+
+1. Read the file and run data validation;
+2. Run t-test for each glacier and collect p-values;
+3. Support the evidence with
+    + a table of results;
+    + a plot that could help compare different glaciers.
+    
+## Analysis
+
+```{r analysis, cache=TRUE}
+glacier <- read.csv("glacier.csv", na.strings = "..", comment.char = "#")
+glacier <- glacier %>%
+  select(Ref_Date, GEO, MEASURE, Value) %>% 
+  filter(MEASURE == "Annual mass balance") %>% 
+  separate(GEO, c("Name", "Location"), sep = " - ")
+
+g1 <- glacier %>%
+  group_by(Name) %>% 
+  summarise(YearsObserved = n(), 
+            MeanChange = mean(Value, na.rm = T), 
+            WorstChange = min(Value, na.rm = T),
+            WorstYear = Ref_Date[which.min(Value)])
+
+g2 <- glacier %>% 
+  group_by(Name) %>% 
+  do({
+    tt <- t.test(.$Value, alternative = "less", mu = 0, conf.level = 0.99)
+    data.frame(PValue = tt$p.value, 
+               ConfidenceLimit = tt$conf.int[2])
+    })
+
+left_join(g1, g2, by = "Name") %>% 
+  knitr::kable(caption = "Descriptive statistics and confidence intervals", 
+               digits = c(0, 0, 2, 0, 0, 10, 2))
+```
+
+```{r ggplot, fig.width=8, fig.height=6}
+ggplot(glacier, aes(Ref_Date, Value)) + 
+  geom_line() + 
+  geom_hline(data = g1, aes(yintercept = MeanChange), 
+             color = "red", linetype = "dashed", alpha = 0.8) + 
+  facet_wrap(~Name, nrow = 2)
+```
+
+

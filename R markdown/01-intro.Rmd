@@ -1,0 +1,55 @@
+---
+title: "R Markdown"
+author: "Антон Антонов"
+---
+
+```{r setup, echo=FALSE}
+options(width = 110)
+```
+
+## Что такое R Markdown
+
+>- Средство для создания динамических документов, отчётов и презентаций
+>- Инструмент для встраивания результатов исполнения кода на R в текст документа
+
+. . .
+
+<center>
+<img src="images/RMarkdownOutputFormats.png" alt="" style="width: 300px; height: 300px;"/>
+</center>
+
+## Зачем это нужно
+
+>- Для полной воспроизводимости результатов
+>- Для конвертирования исходного .Rmd файла в разные форматы:
+    + HTML
+    + PDF
+    + MS Word (ODT, RTF)
+    + Markdown
+    + Презентации: ioslides, reveal.js, Slidy, Beamer
+    + Шаблоны для web-сайтов
+>- Для удобства написания, разметки и форматирования документа
+>- Для распространения открытого кода, идей, алгоритмов и результатов исследований
+
+## Reproducible research и коллаборация
+
+>- [Статья в "Nature"](http://www.nature.com/news/1-500-scientists-lift-the-lid-on-reproducibility-1.19970): более 70% опрошенных исследователей не могут воспроизвести результаты, полученные коллегами
+>- В последнее время ситуация ухудшается: 
+    + Растут объёмы данных
+    + Используются сложные схемы обработки данных
+    + Применяемые модели и алгоритмы требуют тонкой настройки
+    + Формат традиционной журнальной статьи не отвечает современным требованиям
+>- [Ropensci reproducibility guide](http://ropensci.github.io/reproducibility-guide/)
+
+<!-- 
+demo: 
+new r markdown
+knit
+note code and markdown
+run chunk
+change options to viewer pane
+change and knit again
+knit to pdf
+note output value in YAML header
+spellcheck
+-->

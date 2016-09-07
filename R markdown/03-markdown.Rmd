@@ -1,0 +1,73 @@
+---
+title: "R Markdown"
+author: "Антон Антонов"
+---
+
+```{r setup, echo=FALSE}
+options(width = 110)
+```
+
+## Зачем нужен Markdown
+
+>- HTML -- это набор инструкций для браузера
+>- Написание HTML-страниц в ручном режиме очень неудобно
+>- Markdown -- текстовый формат, удобный для написания и чтения
+>- Markdown -- это инструмент конвертации такого текста в HTML
+
+## Пример
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+</head>
+
+<body>
+<h1>Markdown example</h1>
+<p>You can use a bit of <strong>bold</strong> or <em>italics</em>.</p>
+</body>
+</html>
+```
+
+. . .
+
+```
+# Markdown example
+
+You can use a bit of **bold** or _italics_.
+```
+
+## Основные элементы Markdown
+
+>- `**Жирный** __шрифт__` --> **Жирный** __шрифт__
+>- `*Курсивный* _шрифт_` --> *Курсивный* _шрифт_
+>- Моноширинный шрифт `` `sum(x)` `` --> `sum(x)`
+>- Верхние и нижние индексы `A^2^~i~` --> A^2^~i~
+>- `~~Зачёркнутый~~ текст` --> ~~Зачёркнутый~~ текст
+>- Экранирование символов (escape): `\* \_ \\ \$` --> \* \_ \\ \$ 
+>- Автозамена тире и длинного тире: `-- ---` --> -- ---
+
+## Основные элементы Markdown
+
+>- Заголовки: `# Header 1` -- `###### Header 6`
+>- Гиперссылка: `<https://www.github.com/tonytonov>` --> <https://www.github.com/tonytonov>
+>- Гиперссылка в тексте: `[Мой гитхаб](https://www.github.com/tonytonov)` --> [Мой гитхаб](https://www.github.com/tonytonov)
+>- <http://www.rstudio.com/wp-content/uploads/2016/03/rmarkdown-cheatsheet-2.0.pdf>
+
+## Поддержка latex
+
+>- Для сборки pdf нужна установка $\TeX$ (MiKTeX, TeX Live)
+>- `$\hat{\beta} = (X^T X)^{-1} X^T y$` --> $\hat{\beta} = (X^T X)^{-1} X^T y$
+>- `$$i \hbar \frac{\partial}{\partial t} ... $$` --> $$i \hbar \frac{\partial}{\partial t}\Psi(\mathbf{r},t) = \hat H \Psi(\mathbf{r},t)$$
+>- Полноценные возможности $\TeX$ (настройки, пакеты, макросы и т.д.)
+>- Формулы корректно отображаются в HTML благодаря MathJax
+
+<!-- 
+demo: 
+add footnote
+add download link
+add bold, italics
+add list of mixed type
+add latex equation
+-->
