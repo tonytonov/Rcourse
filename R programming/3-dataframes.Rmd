@@ -1,0 +1,192 @@
+---
+title: "Дата фреймы"
+author: "<i>Основы программирования на R</i><br><br>Антон Антонов"
+output: 
+  revealjs::revealjs_presentation:
+    theme: serif
+    highlight: tango
+    center: false
+    transition: fade
+    pandoc_args: [ 
+      "--slide-level", "1", 
+      "--include-in-header", "custom.css"
+    ]
+---
+
+```{r setup, echo=FALSE}
+options(width = 110)
+```
+
+# Дата фрейм
+
+>- Дата фрейм (data frame) -- двумерная таблица с данными (Excel spreadsheet, SQL-таблица)
+>- Де-факто стандартный способ хранения данных в формате "наблюдения/переменные": <br> строки соответствуют наблюдениям, столбцы -- переменным
+
+. . .
+
+Places        N\_coord     E\_coord           Date     Temp
+-------      ---------    ---------     ----------   ------
+MM Faculty       59.88        29.83     07.01.2014      -15
+PP Fortress      59.95        30.32     15.05.2013       17
+SPbU main        59.94        30.3      22.06.2013       22
+MM Faculty       59.88        29.83     09.01.2014      -21
+...                ...          ...            ...      ...
+
+. . .
+
+data frame наследует свойства матрицы (прямоугольная форма) и списка (переменные могут быть разных типов)
+
+
+# Создание дата фреймов
+
+. . . 
+
+```{r}
+df <- data.frame(x = 1:4, y = LETTERS[1:4], z = c(T, F))
+df
+```
+
+. . . 
+
+Функция `str` -- сводка об объекте:
+```{r}
+str(df)
+```
+
+# Имена
+
+. . .
+
+```{r}
+df <- data.frame(x = 1:4, y = LETTERS[1:4], z = c(T, F), 
+                 row.names = c("Alpha", "Bravo", "Charlie", "Delta"))
+df
+```
+
+. . .
+
+```{r}
+rownames(df); colnames(df) #dimnames(df)
+```
+
+# Размерности
+
+. . .
+
+```{r}
+nrow(df); ncol(df) #dim(df)
+```
+
+. . .
+
+Две важные особенности:
+
+>- &zwnj; `length(df)` возвращает количество _столбцов_ (переменных), а не общее количество элементов
+>- &zwnj; `names(df)` также возвращает имена столбцов 
+
+. . .
+
+```{r}
+length(df); names(df)
+```
+
+# Индексация data frame
+
+. . .
+
+Как для матрицы:
+
+```{r}
+df[3:4, -1]
+```
+
+. . .
+
+```{r}
+df[c(F, T), c("z", "x")]
+```
+
+# Индексация data frame
+
+. . .
+
+```{r}
+df[, 1]; df[, 1, drop = FALSE]
+```
+
+. . .
+
+Как для списка:
+
+```{r}
+df$z #df[[3]]; df[["z"]]
+```
+
+# Фильтрация по условию
+
+. . .
+
+```{r}
+df[df$x > 2, ]
+```
+
+. . .
+
+```{r}
+subset(df, x > 2)
+```
+
+. . .
+
+```{r}
+subset(df, x > 2, select = c(x, z))
+```
+
+# Комбинирование data frame
+
+. . . 
+
+Функции `rbind`/`cbind` работают как для матриц:
+
+```{r}
+rbind(df, data.frame(x = 5:6, y = c("K", "Z"), z = TRUE, row.names = c("Kappa", "Zulu")))
+```
+
+. . .
+
+```{r}
+cbind(df, data.frame(season = c("Summer", "Autumn", "Winter", "Spring"), temp = c(20, 5, -10, 5)))
+```
+
+# Комбинирование data frame: `merge`
+
+. . .
+
+```{r}
+df
+```
+
+. . .
+
+```{r}
+df_salary <- data.frame(x = c(3, 2, 6, 1), salary = c(100, 1000, 300, 500))
+merge(df, df_salary, by = "x")
+```
+
+. . . 
+
+Для тех, кто знаком с SQL: это inner join. 
+
+Остальные типы (left, right, outer, cross join) легко найти на stackoverflow по запросу "r joins".
+
+# Глоссарий
+
+. . .
+
+`?data.frame`
+
+`?str`
+
+`?rownames`, `?colnames`, `?dimnames`, `?nrow`, `?ncol`, `?dim`
+
+`?subset`, `?rbind`, `?cbind`, `?merge`

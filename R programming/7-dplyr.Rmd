@@ -1,0 +1,179 @@
+---
+title: "Предобработка данных средствами tidyr и dplyr"
+author: "<i>Основы программирования на R</i><br><br>Антон Антонов"
+output: 
+  revealjs::revealjs_presentation:
+    theme: serif
+    highlight: tango
+    center: false
+    transition: fade
+    pandoc_args: [ 
+      "--slide-level", "1", 
+      "--include-in-header", "custom.css"
+    ]
+---
+
+```{r setup, echo=FALSE}
+options(width = 110)
+```
+
+# Концепция "tidy data"
+
+. . .
+
+В статистике стандартная форма записи табличных данных: 
+
+>- стоблец -- переменная
+>- строка -- наблюдение
+
+. . .
+
+Это очень удобно для дата фрейма в R
+
+. . .
+
+Не во всех областях анализа данных это так
+
+. . .
+
+Hadley Wickham: `tidyr`, `dplyr`, `ggplot2`, `ggvis`, ...
+
+# Пакет tidyr
+
+. . .
+
+Рассмотрим случайные данные:
+
+```{r}
+set.seed(1122)
+df <- data.frame(Name = c("John", "Peter", "Mary", "Caroline"),
+                 DrugA_T1 = runif(4, 35, 36),
+                 DrugA_T2 = runif(4, 36, 39),
+                 DrugB_T1 = runif(4, 36, 36.6),
+                 DrugB_T2 = runif(4, 37, 38.5)
+); df
+```
+
+# Связка `gather`-`spread`
+
+. . .
+
+Из "широкого" в "длинный" формат (wide to long):
+```{r}
+library(tidyr)
+gather(df, Variable, Temperature, -Name) 
+```
+
+# Связка `separate`-`unite`
+
+. . .
+
+Разделение переменных:
+
+```{r}
+df <- gather(df, Variable, Temperature, -Name)
+df <- separate(df, Variable, c("DrugType", "Time"), "_")
+df
+```
+
+# `dplyr`: функция `select`
+
+. . .
+
+```{r, message=FALSE}
+library(dplyr)
+select(df, Time, Temperature)
+```
+
+. . .
+
+```{r, eval=FALSE}
+select(df, 3:4)
+select(df, starts_with("T"))
+select(df, -Name, -DrugType)
+````
+
+# `dplyr`: функция `filter`
+
+. . .
+
+```{r}
+filter(df, Temperature > 37, Name %in% c("John", "Mary"))
+```
+
+# `dplyr`: функция `arrange`
+
+. . . 
+
+```{r}
+arrange(df, Name, -Temperature)
+```
+
+# `dplyr`: функция `mutate`
+
+. . . 
+
+```{r}
+mutate(df, DrugType = gsub("Drug", "", DrugType))
+```
+
+# `dplyr`: связка функций `group_by` и `summarise`
+
+. . . 
+
+```{r}
+summarize(group_by(df, Time), 
+          AvgTemp = mean(Temperature))
+```
+
+# Полезные ссылки
+
+>- `library(data.table)`
+>- Cheat sheet по tidyr и dplyr: [https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
+>- Современный взгляд на предобработку данных: dplyr, tidyr и magrittr. [https://github.com/tonytonov/spbr-1-dataproc](https://github.com/tonytonov/spbr-1-dataproc)
+
+# Конвейеры: оператор `%>%`
+
+```{r}
+df <- data.frame(type = c(1, 1, 2, 2, 3, 3), value = c(5, 10, 50, 100, 7, 7))
+```
+
+. . .
+
+Вложенные вызовы, создание (перезапись) дата фреймов:
+
+```{r, eval=FALSE}
+arrange(
+  summarise(
+    group_by(df, type), 
+    total = sum(value)
+  ),
+  -total
+)
+```
+
+```{r, eval=FALSE}
+a <- group_by(df, type)
+b <- summarise(a, total = sum(value))
+c <- arrange(b, -total)
+```
+
+. . .
+
+Конвейер:
+```{r, eval=FALSE}
+df %>%
+  group_by(type) %>%
+  summarise(total = sum(value)) %>%
+  arrange(-total)
+```
+
+# Конвейеры: оператор `%>%`
+
+. . .
+
+Эквивалентная запись:
+
+>- `x %>% f` <br>  `f(x)`
+>- `x %>% f(y)` <br> `f(x, y)`
+>- `x %>% f(y, param = .)` <br> `f(y, param = x)`

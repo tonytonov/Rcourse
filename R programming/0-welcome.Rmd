@@ -1,0 +1,63 @@
+---
+title: "Добро пожаловать!"
+author: "<i>Основы программирования на R</i><br><br>Антон Антонов"
+output: 
+  revealjs::revealjs_presentation:
+    theme: serif
+    highlight: tango
+    center: false
+    transition: fade
+    pandoc_args: [ 
+      "--slide-level", "1", 
+      "--include-in-header", "custom.css"
+    ]
+---
+
+```{r setup, echo=FALSE}
+options(width = 110)
+```
+
+# About me
+
+>- Академическая математика (вычислительные стохастические методы)
+>- Количественная финансовая математика (алгоритмическая торговля)
+>- Open source contributions: [github.com/tonytonov](https://github.com/tonytonov)
+>- StackOverflow: [stackoverflow.com/users/1900149/tonytonov](http://stackoverflow.com/users/1900149/tonytonov)
+>- St. Petersburg R User Group: [vk.com/spbrug](http://vk.com/spbrug), [meetup.com/St-Petersburg-R-User-Group](http://www.meetup.com/St-Petersburg-R-User-Group/)
+
+# Почему R?
+
+>- Объёмы данных постоянно растут
+>- Это настоящий язык программирования
+>- Он бесплатен, открыт, кроссплатформен, расширяем, у него огромное сообщество
+
+# Почему "программирование"?
+
+>- Первый тип знакомства с R: обучение конкретным методам
+>- Второй тип:
+    + Как устроены объекты языка?
+    + Почему они ведут себя именно так?
+    + Как их можно эффективно использовать?
+    + Основная цель: ускорить переход от простого к сложному
+
+# Почему "основы"?
+
+>- Курс покрывает основные объекты и семантические принципы
+>- Рассматриваются типичные ошибки и сложности при работе с R
+>- Материал универсален и не заточен под специфику данных какой-то области
+
+# Материалы курса
+
+>- Все материалы доступны на [github.com/tonytonov/Rcourse](https://github.com/tonytonov/Rcourse)
+>- Рекомендуемые книги:
+    + Norman Matloff "The Art of R Programming"
+    + Richard Cotton "Learning R"
+    + Hadley Wickham "Advanced R"
+
+# Рекомендации по прохождению
+
+>- Сложность курса возрастает: первая неделя -- "easy", вторая -- "normal", третья -- "hard"
+>- Задания можно пропускать и возвращаться к ним позже
+>- Если что-то непонятно, ищите аналогичные темы в справке, книгах и интернете
+>- Побольше экспериментов!
+>- Don't give up easily :)

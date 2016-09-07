@@ -1,0 +1,145 @@
+---
+title: "Факторы"
+author: "<i>Основы программирования на R</i><br><br>Антон Антонов"
+output: 
+  revealjs::revealjs_presentation:
+    theme: serif
+    highlight: tango
+    center: false
+    transition: fade
+    pandoc_args: [ 
+      "--slide-level", "1", 
+      "--include-in-header", "custom.css"
+    ]
+---
+
+```{r setup, echo=FALSE}
+options(width = 110)
+```
+
+# Факторы
+
+>- В статистике существует деление на _количественные_ и _качественные_ переменные
+>- Для качественных переменных есть `factor`
+>- Фактор -- это гибрид целочисленного (integer) и строкового (character) вектора
+
+. . .
+
+```{r}
+set.seed(1337)
+f <- factor(sample(LETTERS, 30, replace = TRUE))
+f
+```
+
+# Уровни фактора
+
+. . .
+
+```{r}
+as.numeric(f)
+as.character(f)
+```
+
+. . .
+
+```{r}
+levels(f)
+nlevels(f)
+```
+
+# Уровни фактора
+
+Индексирование определено для `==` и `!=`:
+
+```{r}
+f[f == "A"] <- "Z"
+f
+```
+
+. . .
+
+```{r}
+(f <- droplevels(f))
+```
+
+# Преобразование уровней фактора
+
+. . .
+
+```{r}
+levels(f) <- tolower(levels(f))
+#levels(f) <- letters[LETTERS %in% levels(f)]
+f
+```
+
+. . .
+
+```{r}
+levels(f)[1] <- "bbb"
+f
+```
+
+# Упорядоченные факторы
+
+>- Если категории качественной переменной упорядочены, то это _порядковая_ переменная
+>- Упорядоченный фактор: функция `ordered` либо аргумент `ordered = TRUE` для `factor`
+
+. . .
+
+```{r}
+temp <- c("freezing cold", "cold", "comfortable", "hot", "burning hot")
+ft <- ordered(sample(temp, 14, replace = TRUE), temp)
+ft
+ft[ft >= "hot"]
+```
+
+# Преобразование количественной переменной в качественную
+
+>- `cut` разбивает `numeric` вектор на интервалы
+>- `table` производит подсчёт количества элементов для каждого уровня фактора
+
+. . .
+
+```{r}
+cut(rnorm(10), -5:5)
+table(cut(rnorm(1000), -5:5))
+```
+
+
+# options
+
+>- У сессии R есть набор активных настроек, отвечающих за подсчёт и вывод результатов вычислений
+>- `?options` :
+    + `digits` -- количество знаков при печати чисел
+    + `error` -- поведение при ошибке
+    + `width` -- длина строки при печати векторов и матриц
+>- По умолчанию, все строковые переменные становятся факторами, отменить такое поведение можно вызовом `options(stringsAsFactors = FALSE)`
+
+# tapply
+
+>- Факторы чаще всего встречаются как переменные в дата фреймах
+>- Одна из наиболее распространённых задач -- подсчёт некоторой статистики по группам
+
+. . .
+
+```{r}
+#?warpbreaks
+str(warpbreaks)
+tapply(warpbreaks$breaks, warpbreaks$wool, max)
+```
+
+# Глоссарий
+
+. . .
+
+`?factor`
+
+`?levels`, `?nlevels`, `?droplevels`
+
+`?ordered`
+
+`?cut`, `?table`
+
+`?options`
+
+`?tapply`
