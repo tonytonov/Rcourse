@@ -1,0 +1,8 @@
+revealjs::revealjs_presentation:
+    theme: serif
+    highlight: tango
+    center: true
+    transition: fade
+    pandoc_args: [ 
+      "--include-in-header", "custom.css"
+    ]

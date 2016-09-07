@@ -92,12 +92,3 @@ cos(2*pi)
 >- Задаются, как правило, в начале документа
 >- `knitr::opts_chunk$set(echo=FALSE, fig.width=5, fig.height=5)`
 >- Этот вызов удобно поместить в отдельный чанк с опцией `include=FALSE`
-
-<!-- 
-demo: 
-explain setup
-show outline
-set echo, messages and warnings to false
-add analysis.R and explain code
-add plot
--->

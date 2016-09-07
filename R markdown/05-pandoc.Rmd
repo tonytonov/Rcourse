@@ -48,14 +48,3 @@ params:
 ```
 
 >- Использование возможно через список `params`: `` `r knitr::inline_expr('params$n')` ``.
- 
-<!-- 
-demo: 
-add html and pdf render options (toc)
-add bibliography
-change url color
-add keep tex and verify
-add name as parameter
-re-run and notice changes
-delete cache folder
--->

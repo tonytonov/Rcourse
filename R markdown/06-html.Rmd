@@ -53,14 +53,3 @@ library(ggvis)
 ggvis(mtcars, x = ~wt, y = ~mpg, fill = ~factor(cyl)) %>%
   layer_points(size := 100)
 ```
-
-
-## shiny
-## htmlwidgets
-## flexdashboard
-
-<!-- 
-demo: 
-add html tag
-replace ggplot with ggvis
--->

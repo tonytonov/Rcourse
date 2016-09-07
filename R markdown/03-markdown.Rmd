@@ -62,12 +62,3 @@ You can use a bit of **bold** or _italics_.
 >- `$$i \hbar \frac{\partial}{\partial t} ... $$` --> $$i \hbar \frac{\partial}{\partial t}\Psi(\mathbf{r},t) = \hat H \Psi(\mathbf{r},t)$$
 >- Полноценные возможности $\TeX$ (настройки, пакеты, макросы и т.д.)
 >- Формулы корректно отображаются в HTML благодаря MathJax
-
-<!-- 
-demo: 
-add footnote
-add download link
-add bold, italics
-add list of mixed type
-add latex equation
--->

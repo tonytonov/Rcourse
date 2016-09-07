@@ -55,12 +55,3 @@ cat(c("```{r, echo=FALSE}",
 ```{r, echo=FALSE}
 (1:10)^3
 ```
-
-<!-- 
-demo: 
-add chunk with data loading
-reason that echo = FALSE
-add inline code with data dimensions and dates
-note that we would fail if min of dates written by hand
-add chunk with levels
--->

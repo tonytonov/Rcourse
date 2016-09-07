@@ -40,16 +40,3 @@ options(width = 110)
     + Применяемые модели и алгоритмы требуют тонкой настройки
     + Формат традиционной журнальной статьи не отвечает современным требованиям
 >- [Ropensci reproducibility guide](http://ropensci.github.io/reproducibility-guide/)
-
-<!-- 
-demo: 
-new r markdown
-knit
-note code and markdown
-run chunk
-change options to viewer pane
-change and knit again
-knit to pdf
-note output value in YAML header
-spellcheck
--->
